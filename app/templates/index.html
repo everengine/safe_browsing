@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl7/1L_dstPt3HV5HzF6Gvk/e3E+7HgZXvkgo0UIm-/1nJ/7g3wLz17dbh6iup6dfbmWfke3w5GehMGS2rj4sbJrj8j2+lRgmk2Qqv+4s4bLs" crossorigin="anonymous">
+
+    <title>Google Safe Browsing - Flask App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mt-5">Google Safe Browsing - Flask App</h1>
+      <p class="lead">Ellenőrizze, hogy egy weboldal fertőzött-e a Google Safe Browsing API segítségével.</p>
+
+      <form action="/" method="post">
+        <div class="mb-3">
+          <label for="domain" class="form-label">Domain:</label>
+          <input type="text" class="form-control" id="domain" name="domain" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Ellenőriz</button>
+      </form>
+
+      {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, message in messages %}
+            <div class="alert alert-{{ category }} mt-3" role="alert">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+      {% endwith %}
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoJtKh7z7lGz7fuP4F8nfdFvAOA6Gg/z6Y5J6XqqyGXYM2ntX5" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-GLhlTQ8iVG93xBfZlPH94m5b49faiF5bdoAUvG/r6r8DhGv7EX1ikHfj8E2Q8fE3" crossorigin="anonymous"></script>
+  </body>
+</html>
