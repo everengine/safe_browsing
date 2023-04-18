@@ -22,3 +22,6 @@ Leírnád markdown formátumba, hogy be tudjam majd illeszteni a readme.md fájl
 
 Kérlek magyar nyelven írd és ne Google Safe Browsing Flask Application legyen a neve, hanem  Safe Browsing Flask Application
 
+## A teljes csevegés
+
+![safe_browsing_chatgpt_prompts](https://github.com/everengine/safe_browsing/blob/main/safe_browsing_chatgpt_prompts.png)
