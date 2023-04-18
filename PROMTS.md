@@ -2,7 +2,7 @@
 
 ## Dokumentáció készítése
 
-Nem tudom, hogy ti hogy vagytok vele, de nekem mindig nyűg, általában nincs rá igazán időm, és ezt az ügyfelek sem szeretik megfizetni. Ugyanakkor ez az egyik leghasznosabb dolog, ha új kollégának a rendszert meg kell mutatni, illetve akkor, amikor ritkán használunk egy kódot, és vissza kell rá térni, illetve közösségi használat esetén.
+Nem tudom, hogy ti hogy vagytok vele, de nekem mindig nyűg, általában nincs rá igazán időm, és ezt az ügyfelek sem szeretik megfizetni. Ugyanakkor ez az egyik leghasznosabb dolog, ha új kollégának a rendszert meg kell mutatni, illetve akkor, amikor ritkán használunk egy kódot, és vissza kell rá térni, illetve közösségi használat esetén különösen hasznos.
 
 A dokumentáció fontos eleme a szoftverfejlesztésnek, hiszen segít abban, hogy az új fejlesztők könnyen megértsék a rendszert, és elősegíti a hosszú távú karbantartást és fejlesztést. A dokumentáció készítése közben érdemes odafigyelni a részletekre, és folyamatosan frissíteni azt a rendszer változásaival együtt. Emellett a jól megírt és átgondolt dokumentáció hozzájárul a projekt sikerességéhez és a csapat hatékonyságának növeléséhez.
 
